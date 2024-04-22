@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "text-lecture"
+version = "0.1.0"
+description = ""
+authors = ["dongjoo kim <godlejr@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.9.8,<4.0"
+openai = "^1.17.1"
+fastapi = "^0.110.1"
+python-dotenv = "^1.0.1"
+streamlit = "^1.33.0"
+uvicorn = "^0.29.0"
+langchain = "^0.1.16"
+langchain-openai = "^0.1.3"
+tiktoken = "^0.6.0"
+chromadb = "^0.4.24"
+bs4 = "^0.0.2"
+google-api-python-client = "^2.126.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
